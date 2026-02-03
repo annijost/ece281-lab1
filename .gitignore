@@ -9,6 +9,9 @@
 !prelab/
 !prelab/**
 
+# not pdf of integrated circuit
+!IntegratedCircuit-ecelab1.pdf
+
 # don't ignore hardware description files
 !src/
 !src/**/
