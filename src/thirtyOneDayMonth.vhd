@@ -12,7 +12,7 @@
 --|
 --| FILENAME      : thirtyOneDayMonth.vhd
 --| AUTHOR(S)     : Capt Dan Johnson, Annika Jost
---| CREATED       : 12/12/2019 Last Modified 01/05/2020
+--| CREATED       : 12/12/2019 Last Modified 01/05/2026
 --| DESCRIPTION   :  This file implements the thirtyOneDaMonth lab.  Using a 4
 --| switch input, the circuit will light up whenever the 4 switches represent a
 --| month with 31 days
@@ -77,7 +77,6 @@ begin
 	--finish assigning signals
 	
 	--enter your logic here to implement the mux.  See VHDL reference sheet for MUX syntax.
-	--JUST AN IDEA (NOT SURE IF CORRECT)
 	o_Y	<= (i_D) when (w_sel = "000") else
 	       (i_D) when (w_sel = "001") else
 	       (i_D) when (w_sel = "010") else
